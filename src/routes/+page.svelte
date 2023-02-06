@@ -15,3 +15,6 @@
 
 <h1>Hello {name}, my age is {age}!</h1>
 <button  on:click={incrementAge}>Increase Age</button>
+
+<input type="text" bind:value={name}>
+
